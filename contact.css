@@ -74,6 +74,25 @@ label {
     padding: 10px;
   }
 
+  .footer-links_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  
+  .footer-link {
+    color: #dc2ade;
+    text-shadow: 2px 2px #e8f044;
+    text-decoration: none;
+    font-family: "Knewave", cursive;
+  }
+
   .btn {
     background: #dc2ade;
     background-image: -webkit-linear-gradient(top, #dc2ade, #e8f044);
