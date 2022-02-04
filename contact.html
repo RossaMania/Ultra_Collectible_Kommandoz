@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultra Collectible Kommandoz Contact Page</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <div><img id="logo" src="kommandoz-logo.png" alt="Kommandoz Logo" /></div>
+    </header>
+    <section>
+    <p id="description">
+      Love cartoons as much as we do? Great! You can contact us by filling
+      out this survey.
+    </p>
+    <br />
+    <form
+      id="survey-form"
+      action="mailto:raclettenberg@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label id="name-label" for="name">Name:</label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Enter your name"
+        required="required"
+        name="yourName"
+        value=""
+      />
+      <br />
+      <br />
+      <label id="email-label" for="email">Email:</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter your E-mail address"
+        required="required"
+        name="yourEmail"
+        value=""
+      />
+      <br />
+      <br />
+      <label for="dropdown">How did you find this page?</label>
+      <select name="choice" id="dropdown">
+        <option value="Blank" selected>Choose one</option>
+        <option value="CodePen">YouTube</option>
+        <option value="Google">Google.com search</option>
+        <option value="Udemy">None of the above</option>
+      </select>
+      <br />
+      <br />
+      <label for="message">Your Message:</label><br />
+      <textarea
+        name="yourMessage"
+        id="message"
+        placeholder="Enter your comments here. . . "
+        cols="30"
+        rows="10"
+        required="required"
+      ></textarea>
+      <br />
+      <br />
+      <input class="btn" id="submit" type="submit" value="Submit" /><br />
+    </form>
+</section>
+    <footer>
+      <p class="footer-info">
+        Any links to Fiverr or Chrim Ruck cartoons would be helpful here. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Id aliquet lectus proin
+        nibh nisl condimentum id venenatis a. Sit amet facilisis magna etiam
+        tempor orci eu lobortis elementum. Vulputate dignissim suspendisse in
+        est. Ultricies lacus sed turpis tincidunt.
+      </p>
+    </footer>
+  </body>
+</html>
