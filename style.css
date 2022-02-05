@@ -7,7 +7,6 @@
     "main-1 side-1"
     "main-2 side-2";
   height: 100%;
-  width: fit-content;
   margin: 0;
   padding: 20px;
 }
@@ -22,7 +21,6 @@
   color: #e8f044;
   text-shadow: 5px 5px #dc2ade;
   font-size: 30px;
-  /*padding: 2rem;*/
 }
 
 #page-description {
@@ -30,7 +28,6 @@
   color: #dc2ade;
   text-shadow: 2px 2px #e8f044;
   font-size: 25px;
-  /*padding: 5px 10px;*/
 }
 
 .video-1 {
@@ -75,7 +72,6 @@
       "main-2" 
       "side-2";
     height: 80%;
-    width: fit-content;
     margin: 0;
     padding: 20px;
   }

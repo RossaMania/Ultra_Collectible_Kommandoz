@@ -8,6 +8,7 @@
 
 html {
   height: 100%;
+  width: 100%;
 }
 
 header {
@@ -37,6 +38,7 @@ header {
     height: 100%;
     margin: 0;
     background: #323edd;
+    width: 100%;
   }
 
   footer {
@@ -45,6 +47,7 @@ header {
     grid-area: footer;
     text-align: center;
     margin: 0;
+    width: 100%;
   }
   
   .footer-info {
