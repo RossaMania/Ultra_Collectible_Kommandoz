@@ -53,6 +53,7 @@ header {
   .footer-info {
     color: #323EDD;
     text-shadow: 2px 2px #e8f044;
+    font-family: "Sedgwick Ave", cursive;
     margin: 5px;
     padding: 10px;
   }
