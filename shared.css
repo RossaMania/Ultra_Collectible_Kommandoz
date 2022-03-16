@@ -54,8 +54,21 @@ header {
     color: #323EDD;
     text-shadow: 2px 2px #e8f044;
     font-family: "Sedgwick Ave", cursive;
+    font-size: 2rem;
     margin: 5px;
     padding: 10px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .footer-links_list {
