@@ -11,6 +11,10 @@ html {
   width: 100%;
 }
 
+.fa:hover {
+  color: #e8f044;
+}
+
 header {
   margin: 0;
   width: 100%;
