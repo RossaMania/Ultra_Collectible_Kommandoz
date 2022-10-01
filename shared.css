@@ -18,7 +18,8 @@ html {
 header {
   margin: 0;
   width: 100%;
-  background: #3e6545;
+  /* background: #3e6545; */
+  background: darkred;
   border: solid 5px whitesmoke;
   grid-area: header;
 }
@@ -53,7 +54,7 @@ header {
     margin: 0;
     width: 100%;
   }
-  
+
   .footer-info {
     color: #323EDD;
     text-shadow: 2px 2px #e8f044;
